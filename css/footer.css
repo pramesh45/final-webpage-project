@@ -1,0 +1,23 @@
+footer{
+  background-color: #211545;
+}
+.contact{
+  display: flex;
+
+  flex-direction: column;
+
+}
+.social_media{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.fab{
+  color: #ffffff;
+
+}
+.social_media i{
+  font-size: 30px;
+}  /* imported from css tricks.com*/

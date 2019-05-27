@@ -1,0 +1,164 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 112px;
+  width: 100%;
+
+}
+.primary_nav{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.nav_ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu_button {
+  display: none;
+
+}
+#close_button{
+  display: none;
+}
+#academic_nav{
+  display: none;
+}
+.hidden{
+  display: none;
+}
+.nav_ul li{
+  padding: 12px 16px;
+
+
+}
+ul>li>a{
+  text-decoration: none;
+  font-family:serif;
+  font-size: 20px;
+}
+/*.nav_ul li:hover{
+  transform: scale(1.05);*/
+}
+#btn_learnline{
+  font-size: 18px;
+  padding-right: 0;
+}
+.logo_cdu{
+  height: 112px;
+  margin-left: 10px;
+}
+@media (max-width:940px){
+  .primary_nav{
+    display: none;
+  }
+  .nav{
+    flex-direction: column;
+    height: 74px;
+  }
+  .logo_cdu{
+    height: 74px;
+  }
+  #menu_button {
+    display:flex;
+
+  }
+  #close_button{
+    display:flex;
+    position: absolute;
+    right: 14px;
+    cursor: pointer;
+
+
+  }
+
+  .nav_mbl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 0;
+
+
+  }
+  .secondary_navs{
+    display: none;
+  }
+  .nav_ul{
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+  }
+  #academic_nav{
+    display: flex;
+  }
+  .nav_ul li{
+    width: 100vw;
+    height: 32px;
+    margin-left: 35px;
+  }
+  #btn_learnline{
+    width: 90vw !important;
+  }
+  .fa-plus{
+    margin-left: 160px;
+  }
+  .fa-minus{
+    margin-left: 160px;
+  }
+  ul.academic_menu li {
+    display: flex;
+
+
+
+  }
+  ul.academic_menu {
+    background-color: #ffffff;
+    overflow: scroll;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

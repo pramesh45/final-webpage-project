@@ -1,0 +1,87 @@
+.main_jumbotron{
+  background-image: url("../image.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 64vh;
+  width: 98vw;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+section{
+  padding: 10px 0 ;
+  background-color: #ffffff;
+
+
+}
+.heading{
+  text-transform: uppercase;;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #000000;
+
+}
+.card_wraper{
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  box-shadow: 5px 5px 0.3rem rgba(0,0,0,0.2);
+
+}
+.card_image{
+  width: 100%;
+  height: 260px;
+}
+.card h1{
+  font-size: 25px;
+  color: #000000;
+  margin: 15px 0;
+}
+.card .button{
+  color: #ffffff;
+  background-color: #211545;
+  width: 122px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#p_card{
+  width: 100%;
+  height: 234px;
+}
+p{
+  font-size: 16px;
+  font-family: serif;
+  text-align: inherit;
+}
+@media screen and (min-width:760px){
+  .card_wraper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    margin: 20px;
+  }
+
+
+
+
+
+
+
+
+}
