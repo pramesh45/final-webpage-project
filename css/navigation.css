@@ -41,6 +41,10 @@
 
 
 }
+
+
+
+
 ul>li>a{
   text-decoration: none;
   font-family:serif;
@@ -57,7 +61,7 @@ ul>li>a{
   height: 112px;
   margin-left: 10px;
 }
-@media (max-width:940px){
+@media (max-width:1024px){
   .primary_nav{
     display: none;
   }

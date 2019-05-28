@@ -9,6 +9,9 @@
   text-decoration: none;
   border-radius: 4px;
 }
+.button:hover{
+  transform: scale(1.03);
+}
 #menu_button{
   color: #2d2d2d;
   border: 1px solid #2d2d2d;
@@ -21,9 +24,15 @@
   background-color: #211545;
   width: 122px;
 }
+.card .button{
+  color: #ffffff;
+  background-color: #211545;
+  width: 122px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 
-#btn_learnline:hover{
-  transform: scale(1.03);
+
 
 
 }
