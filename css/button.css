@@ -24,22 +24,17 @@
   background-color: #211545;
   width: 122px;
 }
-.card .button{
-  color: #ffffff;
-  background-color: #211545;
-  width: 122px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
 
-
+#btn_learnline:hover{
+  transform: scale(1.03);
 
 
 }
 #close_button{
   color: #2d2d2d;
   border: 1px solid #2d2d2d;
-  width: 88px;
+  width: 92px;
+  background-color: #ffffff;
 
 }
 .fas{

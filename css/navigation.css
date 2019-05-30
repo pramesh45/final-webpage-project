@@ -81,6 +81,7 @@ ul>li>a{
     position: absolute;
     right: 14px;
     cursor: pointer;
+    margin-top: 6px;
 
 
   }
@@ -101,13 +102,17 @@ ul>li>a{
     flex-direction: column;
     background-color: #fff;
     justify-content: center;
+    margin-top: -72px;
+    overflow: scroll;
+
+
   }
   #academic_nav{
     display: flex;
   }
   .nav_ul li{
     width: 100vw;
-    height: 32px;
+    height: auto;
     margin-left: 35px;
   }
   #btn_learnline{
