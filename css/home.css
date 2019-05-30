@@ -14,6 +14,9 @@ section{
 
 
 }
+#push{
+  margin-top: 60px;
+}
 .heading{
   text-transform: uppercase;;
   font-size: 35px;
@@ -34,13 +37,12 @@ section{
   display: flex;
   flex-direction: column;
   width: 310px;
+  height: 620px;
   background-color: #ffffff;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 5px 0;
   box-shadow: 5px 5px 0.3rem rgba(0,0,0,0.2);
-
-
 }
 
 
